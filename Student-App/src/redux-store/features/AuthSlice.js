@@ -17,15 +17,7 @@ const authSlice = createSlice({
 
 
   },
-  reducers: {
-    // signUpRed: (state, action) => {
-    //   state.user = action.payload;
-    // },
-
-    // signInRed: (state, action) => {
-    //   // login logic
-    // },
-  },
+  
   extraReducers: (builder) => {
     builder.addCase(addUser.pending, (state) => {
       state.loading = true;

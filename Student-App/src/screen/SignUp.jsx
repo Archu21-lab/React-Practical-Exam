@@ -73,7 +73,7 @@ export default function SignUp() {
         </div>
 
         <button
-          type="submite"
+          type="submit"
           className="btn btn-primary"
           onClick={() => navigate("/")}
         >
